@@ -6,6 +6,6 @@ urlpatterns = [
  path('show/<str:name>', show_photo),
  path('priv/<str:status>', otdat_chest_polzovatelu),
  path('dont/<str:name>', show_image_and_photo),
- path('', zefacebook)
-
+ path('', zefacebook),
+ path('a1/<int:a1>/<int:a2>', divide)
 ]
